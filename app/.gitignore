@@ -1,0 +1,4 @@
+/build
+
+# Скрытие файла с API ключем
+app\src\main\java\com\example\bottomnavigationdemo\Constants.kt
