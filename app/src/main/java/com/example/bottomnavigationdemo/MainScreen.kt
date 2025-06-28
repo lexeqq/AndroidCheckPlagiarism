@@ -29,10 +29,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.bottomnavigationdemo.pages.AccountPage
 import com.example.bottomnavigationdemo.pages.HomePage
 import com.example.bottomnavigationdemo.pages.HistoryPage
-import com.example.bottomnavigationdemo.pages.SettingsPage
 
 @Preview(showBackground = true)
 @Composable
@@ -58,12 +56,12 @@ fun MainScreen() {
                         left = 12.dp,
                         right = 12.dp,
                         bottom = 12.dp,
-                        top = 100.dp ))) {
+                        top = 70.dp ))) {
                 Surface (shape = RoundedCornerShape(16.dp),
                     color = MaterialTheme.colorScheme.primaryContainer,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(45.dp)
+                        .height(35.dp)
                 ){
                     NavigationBar (modifier = Modifier,
                         containerColor = Color(0xFF3B3B3F)
@@ -77,7 +75,7 @@ fun MainScreen() {
                                 },
                                 icon = {
                                     Box(modifier = Modifier.fillMaxHeight(),
-                                        contentAlignment = Alignment.BottomCenter){
+                                        contentAlignment = Alignment.Center){
                                     Icon(painter = painterResource(id = navItem.icon),
                                         contentDescription = "Main",
                                         tint = if (isSelected) {

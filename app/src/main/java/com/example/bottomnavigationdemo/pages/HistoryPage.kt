@@ -110,14 +110,14 @@ fun HistoryItemCard(item: HistoryItem) {
     val context = LocalContext.current
     Card(
         modifier = Modifier
-            .background(Color(0xFF3B3B3D))
+            .background(Color(0xFF16161E))
             .fillMaxWidth()
             .padding(8.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Column(
             modifier = Modifier
-                .background(Color(0xFF16161E))
+                .background(Color(0xFF16161E)) // was 0xFF3B3B3D
                 .padding(16.dp)
         ) {
             // Текст (первые 100 символов)
@@ -138,7 +138,9 @@ fun HistoryItemCard(item: HistoryItem) {
             )
 
             // Совпадения
-            Text("Совпадения:", fontWeight = FontWeight.Bold)
+            Text("Совпадения:",
+                color = Color(0xFFF2F2F2),
+                fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(4.dp))
 
             if (item.getMatches().isEmpty()) {
