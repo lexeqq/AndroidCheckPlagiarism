@@ -1,4 +1,4 @@
-package com.example.bottomnavigationdemo.apifiles
+package com.example.bottomnavigationdemo.model.retrofit
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

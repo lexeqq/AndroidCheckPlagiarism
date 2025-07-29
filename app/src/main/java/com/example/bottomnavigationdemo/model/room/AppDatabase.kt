@@ -1,4 +1,4 @@
-package com.example.bottomnavigationdemo.mybd
+package com.example.bottomnavigationdemo.model.room
 
 import android.content.Context
 import androidx.room.Database

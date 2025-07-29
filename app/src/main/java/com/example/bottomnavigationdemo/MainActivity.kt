@@ -3,10 +3,10 @@ package com.example.bottomnavigationdemo
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import com.example.bottomnavigationdemo.view.navigation.MainScreen
 import com.example.bottomnavigationdemo.ui.theme.BottomNavigationDemoTheme
 
 class MainActivity : ComponentActivity() {

@@ -1,9 +1,9 @@
-package com.example.bottomnavigationdemo.mybd
+package com.example.bottomnavigationdemo.model.room
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.bottomnavigationdemo.apifiles.Match
-import com.example.bottomnavigationdemo.apifiles.PlagiarismResponse
+import com.example.bottomnavigationdemo.model.retrofit.Match
+import com.example.bottomnavigationdemo.model.retrofit.PlagiarismResponse
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

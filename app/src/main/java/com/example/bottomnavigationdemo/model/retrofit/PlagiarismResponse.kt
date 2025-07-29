@@ -1,4 +1,4 @@
-package com.example.bottomnavigationdemo.apifiles
+package com.example.bottomnavigationdemo.model.retrofit
 
 data class PlagiarismResponse(
     val text: String, // Проверенный текст

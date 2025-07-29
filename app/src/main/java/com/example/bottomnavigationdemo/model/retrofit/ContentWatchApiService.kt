@@ -1,4 +1,4 @@
-package com.example.bottomnavigationdemo.apifiles
+package com.example.bottomnavigationdemo.model.retrofit
 
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded

@@ -1,11 +1,9 @@
-package com.example.bottomnavigationdemo.mybd
+package com.example.bottomnavigationdemo.model.room
 
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.bottomnavigationdemo.mybd.HistoryRepository
-import com.example.bottomnavigationdemo.mybd.HistoryViewModel
-import com.example.bottomnavigationdemo.pages.HomeViewModel
+import com.example.bottomnavigationdemo.viewmodel.HomeViewModel
 
 class ViewModelFactory(
     private val historyRepository: HistoryRepository

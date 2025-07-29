@@ -1,9 +1,7 @@
-package com.example.bottomnavigationdemo.mybd
+package com.example.bottomnavigationdemo.model.room
 
 
 import android.app.Application
-import com.example.bottomnavigationdemo.mybd.AppDatabase
-import com.example.bottomnavigationdemo.mybd.HistoryRepository
 
 class MyApplication : Application() {
     val database by lazy { AppDatabase.getDatabase(this) }

@@ -1,8 +1,7 @@
-package com.example.bottomnavigationdemo.mybd
+package com.example.bottomnavigationdemo.model.room
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.bottomnavigationdemo.mybd.HistoryRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch

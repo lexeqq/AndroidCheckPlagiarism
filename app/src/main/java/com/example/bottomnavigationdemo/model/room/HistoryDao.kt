@@ -1,4 +1,4 @@
-package com.example.bottomnavigationdemo.mybd
+package com.example.bottomnavigationdemo.model.room
 
 import androidx.room.Dao
 import androidx.room.Insert

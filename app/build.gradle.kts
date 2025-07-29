@@ -94,4 +94,11 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     // Gson
     implementation(libs.gson)
+
+    implementation(libs.poi.ooxml)
+    implementation(libs.poi)
+    implementation(libs.xmlbeans)
+    implementation(libs.commons.compress)
+    implementation(libs.commons.io)
+
 }
